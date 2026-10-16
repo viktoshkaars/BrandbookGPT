@@ -1,0 +1,71 @@
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ФБК — Фирменный стиль</title>
+<style>
+:root{--purple:#523178;--ink:#292335;--muted:#655c70;--line:#e7dfed}
+*{box-sizing:border-box}
+body{margin:0;background:#f8f7fa;color:var(--ink);font-family:Inter,Arial,sans-serif}
+main{max-width:1120px;margin:auto;padding:clamp(18px,4vw,55px)}
+.hero{padding:clamp(26px,5vw,58px);border-radius:24px;background:linear-gradient(125deg,#f2ebf8,#fff 65%,#e9dff2);border:1px solid #e6dced}
+.eyebrow{color:#79569b;font-size:12px;letter-spacing:2px;font-weight:800;text-transform:uppercase}
+h1{font-size:clamp(36px,6vw,65px);line-height:1.08;letter-spacing:-2px;background:linear-gradient(110deg,#382050,#7680a8,#a586c3);color:transparent;background-clip:text;-webkit-background-clip:text;margin:22px 0}
+p{line-height:1.85}
+.hero p{max-width:780px;color:#554a61}
+h2{font-size:clamp(22px,3vw,30px);margin:42px 0 20px}
+h2:before{content:"";display:inline-block;width:5px;height:25px;background:var(--purple);border-radius:5px;vertical-align:middle;margin-right:13px}
+.cards,.cases{display:grid;gap:18px}
+.cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cases{grid-template-columns:repeat(2,minmax(0,1fr))}
+.skill,.case{background:white;border:1px solid var(--line);border-radius:16px;padding:24px}
+.skill{transition:transform .25s,box-shadow .25s,border-color .25s}
+.skill:hover{transform:translateY(-8px);box-shadow:0 18px 36px #5231781c;border-color:#baa3cf}
+.ico{width:46px;height:46px;display:grid;place-items:center;border-radius:12px;background:#efe7f5;color:var(--purple);font-size:24px}
+h3{font-size:17px;margin:18px 0 8px}
+.skill p,.case p{font-size:14px;color:var(--muted);margin:0}
+.feature{background:linear-gradient(120deg,#523178,#79569d);border-radius:18px;padding:30px;color:white}
+.feature h3{margin:0 0 10px}
+.feature p{color:#f0e8f7;margin:0}
+.case{border-left:4px solid #76509c}
+.num{color:#8965a9;font-size:12px;letter-spacing:1px;font-weight:800}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tag{padding:10px 15px;background:#efe8f5;color:#593979;border:1px solid #e1d5ec;border-radius:10px;font-size:13px;font-weight:650;transition:background .2s}
+.tag:hover{background:#ddd0e9}
+footer{border-top:1px solid var(--line);margin-top:40px;padding-top:18px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px}
+@media(max-width:650px){.cards,.cases{grid-template-columns:1fr}footer{flex-direction:column}main{padding:18px}.skill,.case{padding:20px}}
+@media(prefers-reduced-motion:reduce){.skill,.tag{transition:none}.skill:hover{transform:none}}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<div class="eyebrow">ФБК / Корпоративная идентичность</div>
+<h1>Что такое<br>фирменный стиль?</h1>
+<p>Сильный бренд — это стратегический капитал компании. Фирменный стиль помогает организации выделяться среди конкурентов, привлекать и удерживать таланты и клиентов, завоевывать доверие и лояльность, вдохновлять ее сотрудников на дальнейший рост. Торговая марка — это визуализация философии, видения и миссии бренда.</p>
+</section>
+<section>
+<h2>Ценность фирменного стиля</h2>
+<div class="cards">
+<article class="skill"><div class="ico">✦</div><h3>Узнаваемость</h3><p>Формирует единый визуальный образ и помогает выделяться среди конкурентов.</p></article>
+<article class="skill"><div class="ico">◇</div><h3>Доверие</h3><p>Поддерживает последовательное восприятие компании клиентами и партнёрами.</p></article>
+<article class="skill"><div class="ico">↗</div><h3>Развитие</h3><p>Объединяет команду вокруг философии, миссии и ценностей бренда.</p></article>
+</div>
+</section>
+<section>
+<h2>Правила использования фирменного стиля</h2>
+<div class="feature"><h3>Единые стандарты. Сильный бренд.</h3><p>Правила использования фирменного стиля разработаны как пакет инструкций для всех, кто производит любые формы коммуникации или фирменные материалы для ФБК. Ими следует поделиться и с внешними подрядчиками. Последовательность в применении правил использования фирменного стиля укрепляет репутацию бренда компании.</p></div>
+</section>
+<section>
+<h2>Как мне поможет данный документ?</h2>
+<p>Руководство по использованию фирменного стиля является инструкцией для создания различного рода коммуникаций. В сочетании с шаблонами, обучающими инструментами и другими доступными ресурсами документ решает визуально задачу корректного позиционирования бренда.</p>
+<div class="cases">
+<article class="case"><div class="num">ПРИМЕР 01</div><h3>Деловая презентация</h3><p>Использование единой типографики, цветовой палитры и композиции для оформления слайдов.</p></article>
+<article class="case"><div class="num">ПРИМЕР 02</div><h3>Корпоративные материалы</h3><p>Согласованное оформление документов, отчётов и коммуникационных материалов.</p></article>
+</div>
+</section>
+<section><h2>Инструменты и ресурсы</h2><div class="tags"><span class="tag">Брендбук</span><span class="tag">Логотип</span><span class="tag">Типографика</span><span class="tag">Цветовая палитра</span><span class="tag">Шаблоны</span><span class="tag">Презентации</span><span class="tag">Документы</span><span class="tag">Графические элементы</span></div></section>
+<footer><span>ФБК · Фирменный стиль</span><span>Единство · Узнаваемость · Доверие</span></footer>
+</main>
+</body>
+</html>
